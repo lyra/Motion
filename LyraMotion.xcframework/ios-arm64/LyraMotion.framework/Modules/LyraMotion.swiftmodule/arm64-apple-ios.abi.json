@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "LyraMotion",
+    "printedName": "LyraMotion",
     "children": [
       {
         "kind": "Import",
@@ -664,7 +664,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1473,6 +1489,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1759,6 +1791,22 @@
         "moduleName": "LyraMotion",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2916,6 +2964,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3631,6 +3693,22 @@
         "moduleName": "LyraMotion",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7870,6 +7948,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ExpressibleByArrayLiteral",
             "printedName": "ExpressibleByArrayLiteral",
             "children": [
@@ -7950,6 +8042,22 @@
         "moduleName": "LyraMotion",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8311,6 +8419,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -11030,6 +11154,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ExpressibleByArrayLiteral",
             "printedName": "ExpressibleByArrayLiteral",
             "children": [
@@ -12416,7 +12554,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -12740,6 +12894,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -12976,6 +13144,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -13373,6 +13555,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -13752,6 +13950,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -14088,6 +14300,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -15038,6 +15264,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -15084,6 +15311,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -15136,6 +15364,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -15194,6 +15423,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -15240,6 +15470,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -15538,6 +15769,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -15578,6 +15810,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -15618,6 +15851,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -15658,6 +15892,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -15689,6 +15924,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -15730,6 +15966,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -15762,6 +15999,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -15788,6 +16026,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -15844,6 +16083,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -15934,6 +16174,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -16314,7 +16568,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -17013,6 +17283,22 @@
         "moduleName": "LyraMotion",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -17209,6 +17495,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -17498,6 +17798,20 @@
               "AccessControl"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -18257,6 +18571,22 @@
         "moduleName": "LyraMotion",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -21237,6 +21567,22 @@
         "declAttributes": [
           "Final",
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -21382,6 +21728,22 @@
         "moduleName": "LyraMotion",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -21673,6 +22035,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
             "printedName": "_ObjectiveCBridgeable",
             "children": [
@@ -21723,6 +22099,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -21734,6 +22117,42 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatablePair",
+                    "printedName": "SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI14AnimatablePairV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
           }
         ]
       },
@@ -21868,6 +22287,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
             "printedName": "_ObjectiveCBridgeable",
             "children": [
@@ -21918,6 +22351,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -21929,6 +22369,70 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatablePair",
+                    "printedName": "SwiftUI.AnimatablePair<SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>, SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimatablePair",
+                        "printedName": "SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI14AnimatablePairV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimatablePair",
+                        "printedName": "SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI14AnimatablePairV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI14AnimatablePairV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
           }
         ]
       },
@@ -21995,6 +22499,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "SignedNumeric",
@@ -22233,6 +22751,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -22274,6 +22806,57 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VectorArithmetic",
+            "printedName": "VectorArithmetic",
+            "usr": "s:7SwiftUI16VectorArithmeticP",
+            "mangledName": "$s7SwiftUI16VectorArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
           }
         ]
       },
@@ -22408,6 +22991,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
             "printedName": "_ObjectiveCBridgeable",
             "children": [
@@ -22458,6 +23055,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -22469,6 +23073,42 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatablePair",
+                    "printedName": "SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI14AnimatablePairV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
           }
         ]
       },
@@ -22653,6 +23293,7 @@
         "declAttributes": [
           "Available",
           "ObjC",
+          "NonSendable",
           "Dynamic"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -22662,6 +23303,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -22758,6 +23413,7 @@
         "declAttributes": [
           "Available",
           "ObjC",
+          "NonSendable",
           "Dynamic"
         ],
         "superclassUsr": "c:objc(cs)CAPropertyAnimation",
@@ -22769,6 +23425,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -23306,6 +23976,7 @@
         "declAttributes": [
           "Available",
           "ObjC",
+          "NonSendable",
           "Dynamic"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -23315,6 +23986,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -23363,6 +24048,20 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -23388,6 +24087,7 @@
             "mangledName": "$sSo16UIViewControllerC10LyraMotionE20motionTransitionTypeAC0df9AnimationG0Ovp",
             "moduleName": "LyraMotion",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -23480,6 +24180,7 @@
             "moduleName": "LyraMotion",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "IBInspectable",
@@ -23558,6 +24259,7 @@
             "moduleName": "LyraMotion",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "IBAction",
@@ -23584,6 +24286,7 @@
             "moduleName": "LyraMotion",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "IBAction",
@@ -23615,6 +24318,7 @@
             "mangledName": "$sSo16UIViewControllerC10LyraMotionE018motionUnwindToViewB0yyABF",
             "moduleName": "LyraMotion",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -23644,6 +24348,7 @@
             "mangledName": "$sSo16UIViewControllerC10LyraMotionE018motionUnwindToViewB012withSelectory10ObjectiveC0J0V_tF",
             "moduleName": "LyraMotion",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -23679,6 +24384,7 @@
             "mangledName": "$sSo16UIViewControllerC10LyraMotionE018motionUnwindToViewB09withClassyyXlXp_tF",
             "moduleName": "LyraMotion",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -23724,6 +24430,7 @@
             "mangledName": "$sSo16UIViewControllerC10LyraMotionE018motionUnwindToViewB014withMatchBlockySbABXE_tF",
             "moduleName": "LyraMotion",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -23753,6 +24460,7 @@
             "mangledName": "$sSo16UIViewControllerC10LyraMotionE017motionReplaceViewB04withyAB_tF",
             "moduleName": "LyraMotion",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -23768,6 +24476,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIViewController",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -23782,6 +24491,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -23862,6 +24585,7 @@
             "mangledName": "$sSo22UINavigationControllerC10LyraMotionE30motionNavigationTransitionTypeAC0dg9AnimationH0Ovp",
             "moduleName": "LyraMotion",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -23944,6 +24668,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UINavigationController",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -23959,6 +24684,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -24039,6 +24778,7 @@
             "mangledName": "$sSo18UITabBarControllerC10LyraMotionE09motionTabB14TransitionTypeAC0eh9AnimationI0Ovp",
             "moduleName": "LyraMotion",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -24121,6 +24861,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UITabBarController",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -24136,6 +24877,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -24216,6 +24971,7 @@
             "mangledName": "$sSo6UIViewC10LyraMotionE20motionViewTransitionAC0ceF0Cvp",
             "moduleName": "LyraMotion",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -24260,6 +25016,7 @@
             "moduleName": "LyraMotion",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "IBInspectable",
               "RawDocComment",
@@ -24338,6 +25095,7 @@
             "moduleName": "LyraMotion",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "IBInspectable",
               "RawDocComment",
@@ -24424,6 +25182,7 @@
             "moduleName": "LyraMotion",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "IBInspectable",
               "RawDocComment",
@@ -24530,6 +25289,7 @@
             "mangledName": "$sSo6UIViewC10LyraMotionE7animateyySo11CAAnimationCd_tF",
             "moduleName": "LyraMotion",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -24566,6 +25326,7 @@
             "mangledName": "$sSo6UIViewC10LyraMotionE7animateyySaySo11CAAnimationCGF",
             "moduleName": "LyraMotion",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -24602,6 +25363,7 @@
             "mangledName": "$sSo6UIViewC10LyraMotionE7animateyyAC0C9AnimationCd_tF",
             "moduleName": "LyraMotion",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -24664,6 +25426,7 @@
             "mangledName": "$sSo6UIViewC10LyraMotionE7animate_10completionySayAC0C9AnimationCG_yycSgtF",
             "moduleName": "LyraMotion",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -24700,6 +25463,7 @@
             "mangledName": "$sSo6UIViewC10LyraMotionE10transitionyyAC0C8ModifierCd_tF",
             "moduleName": "LyraMotion",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -24736,6 +25500,7 @@
             "mangledName": "$sSo6UIViewC10LyraMotionE10transitionyySayAC0C8ModifierCGF",
             "moduleName": "LyraMotion",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -24750,6 +25515,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIView",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -24764,6 +25530,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -24834,970 +25614,865 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionContext.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionContext.swift",
       "kind": "BooleanLiteral",
       "offset": 2055,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionPlugin.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 1854,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionCAAnimation.swift",
       "kind": "StringLiteral",
       "offset": 1374,
       "length": 20,
       "value": "\"transform.rotation\""
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionCAAnimation.swift",
       "kind": "StringLiteral",
       "offset": 1412,
       "length": 22,
       "value": "\"transform.rotation.x\""
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionCAAnimation.swift",
       "kind": "StringLiteral",
       "offset": 1452,
       "length": 22,
       "value": "\"transform.rotation.y\""
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionCAAnimation.swift",
       "kind": "StringLiteral",
       "offset": 1492,
       "length": 22,
       "value": "\"transform.rotation.z\""
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionCAAnimation.swift",
       "kind": "StringLiteral",
       "offset": 1531,
       "length": 17,
       "value": "\"transform.scale\""
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionCAAnimation.swift",
       "kind": "StringLiteral",
       "offset": 1565,
       "length": 19,
       "value": "\"transform.scale.x\""
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionCAAnimation.swift",
       "kind": "StringLiteral",
       "offset": 1601,
       "length": 19,
       "value": "\"transform.scale.y\""
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionCAAnimation.swift",
       "kind": "StringLiteral",
       "offset": 1637,
       "length": 19,
       "value": "\"transform.scale.z\""
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionCAAnimation.swift",
       "kind": "StringLiteral",
       "offset": 1679,
       "length": 23,
       "value": "\"transform.translation\""
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionCAAnimation.swift",
       "kind": "StringLiteral",
       "offset": 1725,
       "length": 25,
       "value": "\"transform.translation.x\""
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionCAAnimation.swift",
       "kind": "StringLiteral",
       "offset": 1773,
       "length": 25,
       "value": "\"transform.translation.y\""
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionCAAnimation.swift",
       "kind": "StringLiteral",
       "offset": 1821,
       "length": 25,
       "value": "\"transform.translation.z\""
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionCAAnimation.swift",
       "kind": "StringLiteral",
       "offset": 1910,
       "length": 19,
       "value": "\"bounds.size.width\""
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionCAAnimation.swift",
       "kind": "StringLiteral",
       "offset": 1946,
       "length": 20,
       "value": "\"bounds.size.height\""
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionCAAnimation.swift",
       "kind": "StringLiteral",
       "offset": 1981,
       "length": 13,
       "value": "\"bounds.size\""
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
-      "kind": "StringLiteral",
-      "offset": 1374,
-      "length": 20,
-      "value": "\"transform.rotation\""
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
-      "kind": "StringLiteral",
-      "offset": 1412,
-      "length": 22,
-      "value": "\"transform.rotation.x\""
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
-      "kind": "StringLiteral",
-      "offset": 1452,
-      "length": 22,
-      "value": "\"transform.rotation.y\""
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
-      "kind": "StringLiteral",
-      "offset": 1492,
-      "length": 22,
-      "value": "\"transform.rotation.z\""
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
-      "kind": "StringLiteral",
-      "offset": 1531,
-      "length": 17,
-      "value": "\"transform.scale\""
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
-      "kind": "StringLiteral",
-      "offset": 1565,
-      "length": 19,
-      "value": "\"transform.scale.x\""
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
-      "kind": "StringLiteral",
-      "offset": 1601,
-      "length": 19,
-      "value": "\"transform.scale.y\""
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
-      "kind": "StringLiteral",
-      "offset": 1637,
-      "length": 19,
-      "value": "\"transform.scale.z\""
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
-      "kind": "StringLiteral",
-      "offset": 1679,
-      "length": 23,
-      "value": "\"transform.translation\""
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
-      "kind": "StringLiteral",
-      "offset": 1725,
-      "length": 25,
-      "value": "\"transform.translation.x\""
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
-      "kind": "StringLiteral",
-      "offset": 1773,
-      "length": 25,
-      "value": "\"transform.translation.y\""
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
-      "kind": "StringLiteral",
-      "offset": 1821,
-      "length": 25,
-      "value": "\"transform.translation.z\""
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
-      "kind": "StringLiteral",
-      "offset": 1910,
-      "length": 19,
-      "value": "\"bounds.size.width\""
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
-      "kind": "StringLiteral",
-      "offset": 1946,
-      "length": 20,
-      "value": "\"bounds.size.height\""
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionCAAnimation.swift",
-      "kind": "StringLiteral",
-      "offset": 1981,
-      "length": 13,
-      "value": "\"bounds.size\""
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionTargetState.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionTargetState.swift",
       "kind": "BooleanLiteral",
       "offset": 2934,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionTargetState.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionTargetState.swift",
       "kind": "IntegerLiteral",
       "offset": 3223,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionTargetState.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionTargetState.swift",
       "kind": "BooleanLiteral",
       "offset": 4090,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionTargetState.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionTargetState.swift",
       "kind": "BooleanLiteral",
       "offset": 4153,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Animator\/MotionCoreAnimationViewContext.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Animator\/MotionCoreAnimationViewContext.swift",
       "kind": "BooleanLiteral",
       "offset": 7435,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "FloatLiteral",
       "offset": 1696,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "FloatLiteral",
       "offset": 1701,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "FloatLiteral",
       "offset": 1706,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "FloatLiteral",
       "offset": 1711,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "FloatLiteral",
       "offset": 1781,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "FloatLiteral",
       "offset": 1786,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "FloatLiteral",
       "offset": 1791,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "IntegerLiteral",
       "offset": 1796,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "FloatLiteral",
       "offset": 1864,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "FloatLiteral",
       "offset": 1869,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "IntegerLiteral",
       "offset": 1874,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "IntegerLiteral",
       "offset": 1877,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "FloatLiteral",
       "offset": 1938,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "FloatLiteral",
       "offset": 1943,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "FloatLiteral",
       "offset": 1948,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "IntegerLiteral",
       "offset": 1953,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "FloatLiteral",
       "offset": 2039,
       "length": 5,
       "value": "0.175"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "FloatLiteral",
       "offset": 2046,
       "length": 5,
       "value": "0.885"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "FloatLiteral",
       "offset": 2053,
       "length": 4,
       "value": "0.32"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+CAMediaTimingFunction.swift",
       "kind": "FloatLiteral",
       "offset": 2059,
       "length": 4,
       "value": "1.75"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimationState.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimationState.swift",
       "kind": "IntegerLiteral",
       "offset": 2569,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimationState.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimationState.swift",
       "kind": "FloatLiteral",
       "offset": 2649,
       "length": 4,
       "value": "0.35"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimation.swift",
       "kind": "IntegerLiteral",
       "offset": 3316,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimation.swift",
       "kind": "IntegerLiteral",
       "offset": 3332,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimation.swift",
       "kind": "IntegerLiteral",
       "offset": 3348,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimation.swift",
       "kind": "IntegerLiteral",
       "offset": 3912,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimation.swift",
       "kind": "IntegerLiteral",
       "offset": 4404,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimation.swift",
       "kind": "IntegerLiteral",
       "offset": 4420,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimation.swift",
       "kind": "IntegerLiteral",
       "offset": 4436,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimation.swift",
       "kind": "IntegerLiteral",
       "offset": 4741,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimation.swift",
       "kind": "IntegerLiteral",
       "offset": 5232,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimation.swift",
       "kind": "IntegerLiteral",
       "offset": 5248,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimation.swift",
       "kind": "IntegerLiteral",
       "offset": 5264,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimation.swift",
       "kind": "IntegerLiteral",
       "offset": 5902,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimation.swift",
       "kind": "IntegerLiteral",
       "offset": 5918,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimation.swift",
       "kind": "IntegerLiteral",
       "offset": 5934,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimation.swift",
       "kind": "IntegerLiteral",
       "offset": 6327,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimation.swift",
       "kind": "IntegerLiteral",
       "offset": 7051,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionAnimation.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionAnimation.swift",
       "kind": "IntegerLiteral",
       "offset": 7147,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition+Interactive.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition+Interactive.swift",
       "kind": "BooleanLiteral",
       "offset": 1869,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition+Interactive.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition+Interactive.swift",
       "kind": "BooleanLiteral",
       "offset": 2528,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+UIViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+UIViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1261,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionViewOrderStrategy.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionViewOrderStrategy.swift",
       "kind": "IntegerLiteral",
       "offset": 1312,
       "length": 15,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionViewOrderStrategy.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionViewOrderStrategy.swift",
       "kind": "IntegerLiteral",
       "offset": 1335,
       "length": 20,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionViewOrderStrategy.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1312,
-      "length": 15,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionViewOrderStrategy.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1335,
-      "length": 20,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
       "kind": "FloatLiteral",
       "offset": 7363,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
       "kind": "IntegerLiteral",
       "offset": 7771,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
       "kind": "IntegerLiteral",
       "offset": 7862,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
       "kind": "IntegerLiteral",
       "offset": 7954,
       "length": 9,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
       "kind": "IntegerLiteral",
       "offset": 8098,
       "length": 10,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7771,
-      "length": 8,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7862,
-      "length": 8,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7954,
-      "length": 9,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8098,
-      "length": 10,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7771,
-      "length": 8,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7862,
-      "length": 8,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7954,
-      "length": 9,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8098,
-      "length": 10,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
       "kind": "BooleanLiteral",
       "offset": 8617,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
       "kind": "BooleanLiteral",
       "offset": 9269,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
       "kind": "BooleanLiteral",
       "offset": 9537,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
       "kind": "IntegerLiteral",
       "offset": 11561,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
       "kind": "IntegerLiteral",
       "offset": 11693,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
       "kind": "BooleanLiteral",
       "offset": 12898,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionViewTransition.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
+      "kind": "FloatLiteral",
+      "offset": 14672,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14678,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14796,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
+      "kind": "FloatLiteral",
+      "offset": 14811,
+      "length": 4,
+      "value": "0.01"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition.swift",
+      "kind": "FloatLiteral",
+      "offset": 14833,
+      "length": 4,
+      "value": "0.01"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionTransition+UIViewControllerTransitioningDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3849,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionViewTransition.swift",
       "kind": "IntegerLiteral",
       "offset": 1259,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionViewTransition.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionViewTransition.swift",
       "kind": "IntegerLiteral",
       "offset": 1923,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionViewTransition.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionViewTransition.swift",
       "kind": "IntegerLiteral",
       "offset": 2014,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionViewTransition.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionViewTransition.swift",
       "kind": "BooleanLiteral",
       "offset": 2137,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionViewTransition.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionViewTransition.swift",
       "kind": "BooleanLiteral",
       "offset": 3208,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionViewTransition.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionViewTransition.swift",
       "kind": "BooleanLiteral",
       "offset": 3502,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+UIKit.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+UIKit.swift",
       "kind": "StringLiteral",
       "offset": 1247,
       "length": 30,
       "value": "\"(?:\\-?\\d+(\\.?\\d+)?)|\\w+\""
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+UIKit.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+UIKit.swift",
       "kind": "StringLiteral",
       "offset": 1313,
       "length": 28,
       "value": "\"(\\w+)(?:\\(([^\\)]*)\\))?\""
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Preprocessors\/TransitionPreprocessor.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Preprocessors\/TransitionPreprocessor.swift",
       "kind": "BooleanLiteral",
       "offset": 12861,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Animator\/MotionAnimatorViewContext.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Animator\/MotionAnimatorViewContext.swift",
       "kind": "IntegerLiteral",
       "offset": 1635,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Animator\/MotionAnimatorViewContext.swift",
-      "kind": "StringLiteral",
-      "offset": 1229,
-      "length": 25,
-      "value": "\"LyraMotion.MotionAnimatorViewContext\""
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionProgressRunner.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionProgressRunner.swift",
       "kind": "IntegerLiteral",
       "offset": 1525,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionProgressRunner.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionProgressRunner.swift",
       "kind": "IntegerLiteral",
       "offset": 1567,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Transition\/MotionProgressRunner.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionProgressRunner.swift",
       "kind": "BooleanLiteral",
       "offset": 1640,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionProgressRunner.swift",
+      "kind": "FloatLiteral",
+      "offset": 1799,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionProgressRunner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1805,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionProgressRunner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1849,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionProgressRunner.swift",
+      "kind": "FloatLiteral",
+      "offset": 1935,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionProgressRunner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1941,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Transition\/MotionProgressRunner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1985,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "IntegerLiteral",
       "offset": 4362,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "IntegerLiteral",
       "offset": 4378,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "IntegerLiteral",
       "offset": 4394,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "IntegerLiteral",
       "offset": 4918,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "IntegerLiteral",
       "offset": 5409,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "IntegerLiteral",
       "offset": 5425,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "IntegerLiteral",
       "offset": 5441,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "IntegerLiteral",
       "offset": 6079,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "IntegerLiteral",
       "offset": 6095,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "IntegerLiteral",
       "offset": 6111,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "IntegerLiteral",
       "offset": 6539,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "BooleanLiteral",
       "offset": 7288,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "IntegerLiteral",
       "offset": 7387,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "IntegerLiteral",
       "offset": 7482,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "IntegerLiteral",
       "offset": 12441,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "FloatLiteral",
       "offset": 12916,
       "length": 4,
       "value": "0.02"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "BooleanLiteral",
       "offset": 13008,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "BooleanLiteral",
       "offset": 17197,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "BooleanLiteral",
       "offset": 18765,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/MotionModifier.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/MotionModifier.swift",
       "kind": "BooleanLiteral",
       "offset": 19116,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+UIView.swift",
+      "filePath": "\/Users\/vagrant\/git\/LyraMotion\/Sources\/Extensions\/Motion+UIView.swift",
       "kind": "IntegerLiteral",
       "offset": 1261,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/magelasantana\/Documents\/Projects\/SDK\/iOS\/libraries\/Motion\/LyraMotion\/Sources\/Extensions\/Motion+UIView.swift",
-      "kind": "StringLiteral",
-      "offset": 6080,
-      "length": 19,
-      "value": "\"LyraMotion.SnapshotWrapperView\""
     }
   ]
 }

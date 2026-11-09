@@ -16,7 +16,7 @@ let package = Package(
         .binaryTarget(
             name: "LyraMotion",
             url: "https://raw.githubusercontent.com/lyra/Motion/4.0.6/LyraMotion.xcframework.zip",
-            checksum: "a6230ff0a0e8b596c6bad44a51c62af5db0dc9565fe6239e35545df2027645bf"
+            checksum: "2ef8404ab7711b09dd988c2f3d5eeb81b26d26e1b6d79b712a508c005d740a69"
         )
     ]
 )

@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target x86_64-apple-ios13.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name LyraMotion
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name LyraMotion
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import Foundation
 @_exported import LyraMotion
 import MetalKit
@@ -17,24 +18,36 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 extension LyraMotion.MotionContext {
+  #if compiler(>=5.3) && $NonescapableTypes
   public subscript(view: UIKit.UIView) -> LyraMotion.MotionTargetState? {
     get
     set(value)
   }
+  #endif
 }
 extension LyraMotion.MotionContext {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func sourceView(for motionIdentifier: Swift.String) -> UIKit.UIView?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func destinationView(for motionIdentifier: Swift.String) -> UIKit.UIView?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func pairedView(for view: UIKit.UIView) -> UIKit.UIView?
+  #endif
   @discardableResult
   public func snapshotView(for view: UIKit.UIView) -> UIKit.UIView
   public func insertGlobalViewTree(view: UIKit.UIView)
   public func clean()
 }
 extension LyraMotion.MotionTransition : UIKit.UITabBarControllerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tabBarController(_ tabBarController: UIKit.UITabBarController, shouldSelect viewController: UIKit.UIViewController) -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tabBarController(_ tabBarController: UIKit.UITabBarController, interactionControllerFor animationController: any UIKit.UIViewControllerAnimatedTransitioning) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tabBarController(_ tabBarController: UIKit.UITabBarController, animationControllerForTransitionFrom fromVC: UIKit.UIViewController, to toVC: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tabBarController(_ tabBarController: UIKit.UITabBarController, shouldSelect viewController: UIKit.UIViewController) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tabBarController(_ tabBarController: UIKit.UITabBarController, interactionControllerFor animationController: any UIKit.UIViewControllerAnimatedTransitioning) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tabBarController(_ tabBarController: UIKit.UITabBarController, animationControllerForTransitionFrom fromVC: UIKit.UIViewController, to toVC: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  #endif
 }
 extension CoreFoundation.CGSize {
   public var center: CoreFoundation.CGPoint {
@@ -90,11 +103,17 @@ public func != (lhs: QuartzCore.CATransform3D, rhs: QuartzCore.CATransform3D) ->
 prefix public func - (point: CoreFoundation.CGPoint) -> CoreFoundation.CGPoint
 public func abs(_ p: CoreFoundation.CGPoint) -> CoreFoundation.CGPoint
 extension LyraMotion.MotionTransition : UIKit.UINavigationControllerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func navigationController(_ navigationController: UIKit.UINavigationController, animationControllerFor operation: UIKit.UINavigationController.Operation, from fromVC: UIKit.UIViewController, to toVC: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func navigationController(_ navigationController: UIKit.UINavigationController, interactionControllerFor animationController: any UIKit.UIViewControllerAnimatedTransitioning) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func navigationController(_ navigationController: UIKit.UINavigationController, animationControllerFor operation: UIKit.UINavigationController.Operation, from fromVC: UIKit.UIViewController, to toVC: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func navigationController(_ navigationController: UIKit.UINavigationController, interactionControllerFor animationController: any UIKit.UIViewControllerAnimatedTransitioning) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
+  #endif
 }
 public protocol MotionPreprocessor : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   var motion: LyraMotion.MotionTransition! { get set }
+  #endif
   func process(fromViews: [UIKit.UIView], toViews: [UIKit.UIView])
 }
 public enum CascadeDirection {
@@ -109,7 +128,9 @@ extension QuartzCore.CALayer {
   public func animate(_ animations: QuartzCore.CAAnimation...)
   public func animate(_ animations: [QuartzCore.CAAnimation])
   public func animate(_ animations: LyraMotion.MotionAnimation...)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func animate(_ animations: [LyraMotion.MotionAnimation], completion: (() -> Swift.Void)? = nil)
+  #endif
 }
 public enum MotionAnimationKeyPath : Swift.String {
   case backgroundColor
@@ -140,7 +161,9 @@ public enum MotionAnimationKeyPath : Swift.String {
   case shadowOffset
   case shadowOpacity
   case shadowRadius
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -215,10 +238,12 @@ public struct MotionTargetState {
 extension LyraMotion.MotionTargetState {
   public mutating func append(_ modifier: LyraMotion.MotionModifier)
   public mutating func append(contentsOf modifiers: [LyraMotion.MotionModifier])
+  #if compiler(>=5.3) && $NonescapableTypes
   public subscript(key: Swift.String) -> Any? {
     get
     set(value)
   }
+  #endif
 }
 extension LyraMotion.MotionTargetState : Swift.ExpressibleByArrayLiteral {
   public init(arrayLiteral elements: LyraMotion.MotionModifier...)
@@ -228,7 +253,9 @@ public protocol MotionTargetStateObserver {
   func motion(transitionObserver: any LyraMotion.MotionTargetStateObserver, didUpdateWith progress: Foundation.TimeInterval)
 }
 public protocol MotionAnimator : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   var motion: LyraMotion.MotionTransition! { get set }
+  #endif
   func clean()
   func canAnimate(view: UIKit.UIView, isAppearing: Swift.Bool) -> Swift.Bool
   func animate(fromViews: [UIKit.UIView], toViews: [UIKit.UIView]) -> Foundation.TimeInterval
@@ -273,10 +300,12 @@ public struct MotionAnimationState {
 extension LyraMotion.MotionAnimationState {
   public mutating func append(_ element: LyraMotion.MotionAnimation)
   public mutating func append(contentsOf elements: [LyraMotion.MotionAnimation])
+  #if compiler(>=5.3) && $NonescapableTypes
   public subscript(key: Swift.String) -> Any? {
     get
     set(value)
   }
+  #endif
 }
 extension LyraMotion.MotionAnimationState : Swift.ExpressibleByArrayLiteral {
   public init(arrayLiteral elements: LyraMotion.MotionAnimation...)
@@ -330,35 +359,35 @@ extension LyraMotion.MotionTransition {
   public func apply(modifiers: [LyraMotion.MotionModifier], to view: UIKit.UIView)
 }
 extension UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) public var motionTransitionType: LyraMotion.MotionTransitionAnimationType {
+  @_Concurrency.MainActor @preconcurrency public var motionTransitionType: LyraMotion.MotionTransitionAnimationType {
     get
     set(value)
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var isMotionEnabled: Swift.Bool {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic public var isMotionEnabled: Swift.Bool {
     @objc get
     @objc set(value)
   }
 }
 extension UIKit.UINavigationController {
-  @_Concurrency.MainActor(unsafe) public var motionNavigationTransitionType: LyraMotion.MotionTransitionAnimationType {
+  @_Concurrency.MainActor @preconcurrency public var motionNavigationTransitionType: LyraMotion.MotionTransitionAnimationType {
     get
     set(value)
   }
 }
 extension UIKit.UITabBarController {
-  @_Concurrency.MainActor(unsafe) public var motionTabBarTransitionType: LyraMotion.MotionTransitionAnimationType {
+  @_Concurrency.MainActor @preconcurrency public var motionTabBarTransitionType: LyraMotion.MotionTransitionAnimationType {
     get
     set(value)
   }
 }
 extension UIKit.UIViewController {
-  @objc @IBAction @_Concurrency.MainActor(unsafe) dynamic public func motionDismissViewController()
-  @objc @IBAction @_Concurrency.MainActor(unsafe) dynamic public func motionUnwindToRootViewController()
-  @_Concurrency.MainActor(unsafe) public func motionUnwindToViewController(_ toViewController: UIKit.UIViewController)
-  @_Concurrency.MainActor(unsafe) public func motionUnwindToViewController(withSelector: ObjectiveC.Selector)
-  @_Concurrency.MainActor(unsafe) public func motionUnwindToViewController(withClass: Swift.AnyClass)
-  @_Concurrency.MainActor(unsafe) public func motionUnwindToViewController(withMatchBlock: (UIKit.UIViewController) -> Swift.Bool)
-  @_Concurrency.MainActor(unsafe) public func motionReplaceViewController(with next: UIKit.UIViewController)
+  @objc @IBAction @_Concurrency.MainActor @preconcurrency dynamic public func motionDismissViewController()
+  @objc @IBAction @_Concurrency.MainActor @preconcurrency dynamic public func motionUnwindToRootViewController()
+  @_Concurrency.MainActor @preconcurrency public func motionUnwindToViewController(_ toViewController: UIKit.UIViewController)
+  @_Concurrency.MainActor @preconcurrency public func motionUnwindToViewController(withSelector: ObjectiveC.Selector)
+  @_Concurrency.MainActor @preconcurrency public func motionUnwindToViewController(withClass: Swift.AnyClass)
+  @_Concurrency.MainActor @preconcurrency public func motionUnwindToViewController(withMatchBlock: (UIKit.UIViewController) -> Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency public func motionReplaceViewController(with next: UIKit.UIViewController)
 }
 public enum MotionSnapshotType {
   case optimized
@@ -375,7 +404,9 @@ public enum MotionSnapshotType {
   case auto
   case sourceViewOnTop
   case destinationViewOnTop
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -399,11 +430,15 @@ public typealias MotionCancelBlock = (Swift.Bool) -> Swift.Void
 }
 extension LyraMotion.Motion {
   public class func async(_ execute: @escaping () -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   public class func delay(_ time: Foundation.TimeInterval, execute: @escaping () -> Swift.Void) -> LyraMotion.MotionCancelBlock?
+  #endif
   public class func cancel(delayed completion: (Swift.Bool) -> Swift.Void)
-  public class func disable(_ animations: (() -> Swift.Void))
-  public class func animate(duration: CoreFoundation.CFTimeInterval, timingFunction: QuartzCore.CAMediaTimingFunction = .easeInOut, animations: (() -> Swift.Void), completion: (() -> Swift.Void)? = nil)
+  public class func disable(_ animations: () -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public class func animate(duration: CoreFoundation.CFTimeInterval, timingFunction: QuartzCore.CAMediaTimingFunction = .easeInOut, animations: () -> Swift.Void, completion: (() -> Swift.Void)? = nil)
+  #endif
   public class func animate(group animations: [QuartzCore.CAAnimation], timingFunction: QuartzCore.CAMediaTimingFunction = .easeInOut, duration: CoreFoundation.CFTimeInterval = 0.5) -> QuartzCore.CAAnimationGroup
 }
 public enum MotionTransitionState : Swift.Int {
@@ -412,7 +447,9 @@ public enum MotionTransitionState : Swift.Int {
   case starting
   case animating
   case completing
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -455,35 +492,51 @@ public enum MotionTransitionState : Swift.Int {
   public var progress: Swift.Double {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc override dynamic open func forwardingTarget(for aSelector: ObjectiveC.Selector!) -> Any?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc override dynamic open func responds(to aSelector: ObjectiveC.Selector!) -> Swift.Bool
+  #endif
   @objc deinit
 }
 extension LyraMotion.MotionTransition {
   public func disableDefaultAnimationForNextTransition()
   public func setAnimationForNextTransition(_ animation: LyraMotion.MotionTransitionAnimationType)
   public func setContainerBackgroundColorForNextTransition(_ color: UIKit.UIColor)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setCompletionCallbackForNextTransition(_ completion: ((Swift.Bool) -> Swift.Void)?)
+  #endif
 }
 extension LyraMotion.MotionTransition : UIKit.UIViewControllerTransitioningDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func animationController(forPresented presented: UIKit.UIViewController, presenting: UIKit.UIViewController, source: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func animationController(forDismissed dismissed: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func interactionControllerForDismissal(using animator: any UIKit.UIViewControllerAnimatedTransitioning) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func interactionControllerForPresentation(using animator: any UIKit.UIViewControllerAnimatedTransitioning) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func animationController(forPresented presented: UIKit.UIViewController, presenting: UIKit.UIViewController, source: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func animationController(forDismissed dismissed: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func interactionControllerForDismissal(using animator: any UIKit.UIViewControllerAnimatedTransitioning) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func interactionControllerForPresentation(using animator: any UIKit.UIViewControllerAnimatedTransitioning) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
+  #endif
 }
 extension LyraMotion.MotionTransition : UIKit.UIViewControllerAnimatedTransitioning {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func animateTransition(using context: any UIKit.UIViewControllerContextTransitioning)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func transitionDuration(using transitionContext: (any UIKit.UIViewControllerContextTransitioning)?) -> Foundation.TimeInterval
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func animationEnded(_ transitionCompleted: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func animateTransition(using context: any UIKit.UIViewControllerContextTransitioning)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func transitionDuration(using transitionContext: (any UIKit.UIViewControllerContextTransitioning)?) -> Foundation.TimeInterval
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func animationEnded(_ transitionCompleted: Swift.Bool)
 }
 extension LyraMotion.MotionTransition : UIKit.UIViewControllerInteractiveTransitioning {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public var wantsInteractiveStart: Swift.Bool {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public var wantsInteractiveStart: Swift.Bool {
     @objc get
   }
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func startInteractiveTransition(_ transitionContext: any UIKit.UIViewControllerContextTransitioning)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func startInteractiveTransition(_ transitionContext: any UIKit.UIViewControllerContextTransitioning)
 }
 extension UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public var motionViewTransition: LyraMotion.MotionViewTransition {
+  @_Concurrency.MainActor @preconcurrency public var motionViewTransition: LyraMotion.MotionViewTransition {
     get
   }
 }
@@ -502,7 +555,9 @@ extension UIKit.UIView {
   @objc deinit
 }
 extension LyraMotion.MotionTransition {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func transition(from: UIKit.UIViewController, to: UIKit.UIViewController, in view: UIKit.UIView, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  #endif
 }
 public struct MotionConditionalContext {
   weak public var view: UIKit.UIView!
@@ -524,12 +579,16 @@ public struct MotionConditionalContext {
   public var isAncestorViewMatched: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var matchedView: UIKit.UIView? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var matchedAncestorView: (UIKit.UIView, UIKit.UIView)? {
     get
   }
+  #endif
   public var fromViewController: UIKit.UIViewController {
     get
   }
@@ -655,24 +714,28 @@ public struct AssociatedObject {
   public static func set<T>(base: Any, key: Swift.UnsafePointer<Swift.UInt8>, value: T)
 }
 extension UIKit.UIView {
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var isMotionEnabled: Swift.Bool {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic public var isMotionEnabled: Swift.Bool {
     @objc get
     @objc set(value)
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var isMotionEnabledForSubviews: Swift.Bool {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic public var isMotionEnabledForSubviews: Swift.Bool {
     @objc get
     @objc set(value)
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var motionIdentifier: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic public var motionIdentifier: Swift.String? {
     @objc get
     @objc set(value)
   }
-  @_Concurrency.MainActor(unsafe) public func animate(_ animations: QuartzCore.CAAnimation...)
-  @_Concurrency.MainActor(unsafe) public func animate(_ animations: [QuartzCore.CAAnimation])
-  @_Concurrency.MainActor(unsafe) public func animate(_ animations: LyraMotion.MotionAnimation...)
-  @_Concurrency.MainActor(unsafe) public func animate(_ animations: [LyraMotion.MotionAnimation], completion: (() -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) public func transition(_ modifiers: LyraMotion.MotionModifier...)
-  @_Concurrency.MainActor(unsafe) public func transition(_ modifiers: [LyraMotion.MotionModifier])
+  #endif
+  @_Concurrency.MainActor @preconcurrency public func animate(_ animations: QuartzCore.CAAnimation...)
+  @_Concurrency.MainActor @preconcurrency public func animate(_ animations: [QuartzCore.CAAnimation])
+  @_Concurrency.MainActor @preconcurrency public func animate(_ animations: LyraMotion.MotionAnimation...)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func animate(_ animations: [LyraMotion.MotionAnimation], completion: (() -> Swift.Void)? = nil)
+  #endif
+  @_Concurrency.MainActor @preconcurrency public func transition(_ modifiers: LyraMotion.MotionModifier...)
+  @_Concurrency.MainActor @preconcurrency public func transition(_ modifiers: [LyraMotion.MotionModifier])
 }
 extension LyraMotion.MotionAnimationKeyPath : Swift.Equatable {}
 extension LyraMotion.MotionAnimationKeyPath : Swift.Hashable {}
